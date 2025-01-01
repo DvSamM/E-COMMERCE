@@ -103,7 +103,7 @@
 // };
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api';  // Ensure the `/api` prefix is used as per the rewriter
+const API_URL = 'https://server-seven-gray.vercel.app/api';  // Ensure the `/api` prefix is used as per the rewriter
 
 export const api = {
   async fetchProducts() {
